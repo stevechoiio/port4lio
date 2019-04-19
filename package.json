@@ -19,7 +19,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "http://stevechoiio.github.io/port4lio",
+  "homepage": "https://stevechoiio.github.io/port4lio",
   "browserslist": [
     ">0.2%",
     "not dead",
