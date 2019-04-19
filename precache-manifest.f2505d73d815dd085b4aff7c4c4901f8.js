@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "74dcd5e0ca34f2312dca",
-    "url": "/port4lio/static/css/main.3bc9f59a.chunk.css"
+    "revision": "8294cfb3bf702803f1b5",
+    "url": "/port4lio/static/css/main.6d6ec99f.chunk.css"
   },
   {
-    "revision": "74dcd5e0ca34f2312dca",
-    "url": "/port4lio/static/js/main.74dcd5e0.chunk.js"
+    "revision": "8294cfb3bf702803f1b5",
+    "url": "/port4lio/static/js/main.8294cfb3.chunk.js"
   },
   {
     "revision": "6eb6405c9d99258624bc",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/port4lio/static/js/runtime~main.5d26f10f.js"
   },
   {
-    "revision": "9a380cb21da2788c734f54c82afe9c5e",
+    "revision": "707c1a3d7b0ed6d366163192fe6a5ac8",
     "url": "/port4lio/index.html"
   }
 ];

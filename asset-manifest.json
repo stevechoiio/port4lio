@@ -1,13 +1,13 @@
 {
-  "main.css": "/port4lio/static/css/main.3bc9f59a.chunk.css",
-  "main.js": "/port4lio/static/js/main.74dcd5e0.chunk.js",
-  "main.js.map": "/port4lio/static/js/main.74dcd5e0.chunk.js.map",
+  "main.css": "/port4lio/static/css/main.6d6ec99f.chunk.css",
+  "main.js": "/port4lio/static/js/main.8294cfb3.chunk.js",
+  "main.js.map": "/port4lio/static/js/main.8294cfb3.chunk.js.map",
   "static/js/1.6eb6405c.chunk.js": "/port4lio/static/js/1.6eb6405c.chunk.js",
   "static/js/1.6eb6405c.chunk.js.map": "/port4lio/static/js/1.6eb6405c.chunk.js.map",
   "runtime~main.js": "/port4lio/static/js/runtime~main.5d26f10f.js",
   "runtime~main.js.map": "/port4lio/static/js/runtime~main.5d26f10f.js.map",
-  "static/css/main.3bc9f59a.chunk.css.map": "/port4lio/static/css/main.3bc9f59a.chunk.css.map",
+  "static/css/main.6d6ec99f.chunk.css.map": "/port4lio/static/css/main.6d6ec99f.chunk.css.map",
   "index.html": "/port4lio/index.html",
-  "precache-manifest.61115013bc1ed9c750ee172a2d05d5d2.js": "/port4lio/precache-manifest.61115013bc1ed9c750ee172a2d05d5d2.js",
+  "precache-manifest.f2505d73d815dd085b4aff7c4c4901f8.js": "/port4lio/precache-manifest.f2505d73d815dd085b4aff7c4c4901f8.js",
   "service-worker.js": "/port4lio/service-worker.js"
 }
