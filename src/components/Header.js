@@ -18,11 +18,7 @@ export default class Header extends Component {
                   Home
                 </a>
               </li>
-              <li>
-                <a className="smoothscroll" href="#about">
-                  About
-                </a>
-              </li>
+
               <li>
                 <a className="smoothscroll" href="#resume">
                   Resume
@@ -33,17 +29,17 @@ export default class Header extends Component {
                   Works
                 </a>
               </li>
-              <li>
-                <a className="smoothscroll" href="#contact">
-                  Contact
-                </a>
-              </li>
             </ul>
           </nav>
 
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">{resumeData.name}</h1>
+              <h1
+                style={{ fontFamily: "Julius Sans One" }}
+                className="responsive-headline"
+              >
+                {resumeData.name}
+              </h1>
               <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
                 I am a {resumeData.role}.{resumeData.roleDescription}
               </h3>
@@ -64,7 +60,7 @@ export default class Header extends Component {
           </div>
 
           <p className="scrolldown">
-            <a className="smoothscroll" href="#about">
+            <a className="smoothscroll" href="#resume">
               <i className="icon-down-circle" />
             </a>
           </p>

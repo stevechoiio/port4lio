@@ -25,6 +25,7 @@ export default class Footer extends Component {
             </a>
           </div>
         </div>
+        <p>© 2019 Steve Choi. All rights reserved.</p>
       </footer>
     );
   }
