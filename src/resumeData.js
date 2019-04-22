@@ -101,7 +101,7 @@ let resumeData = {
       name: "FitGO",
       description:
         "Mobile application designed to let local personal trainers connect with their clients. I have built the data and the functions to let clients filter and view personal trainers on Google Map, and favourite their trainers!",
-      imgurl: "images/portfolio/fitgologo.jpg"
+      imgurl: "images/portfolio/fitgoLogo.jpg"
     }
   ],
   testimonials: [
