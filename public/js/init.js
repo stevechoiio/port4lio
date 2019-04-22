@@ -108,10 +108,7 @@ jQuery(document).ready(function($) {
   $("#0").magnificPopup({
     items: [
       {
-        src: "../images/portfolio/farmerboy.jpg"
-      },
-      {
-        src: "../images/portfolio/coffee.jpg"
+        src: "../images/portfolio/coolitrender.png"
       }
     ],
     type: "image" // this is default type
@@ -119,14 +116,14 @@ jQuery(document).ready(function($) {
   $("#1").magnificPopup({
     items: [
       {
-        src: "../images/portfolio/coffee.jpg"
+        src: "../images/portfolio/loyalflushrender.png"
       }
     ],
     type: "image" // this is default type
   });
   $("#2").magnificPopup({
     items: {
-      src: "../images/portfolio/origami.jpg"
+      src: "../images/portfolio/fitgorender.png"
     },
     type: "image" // this is default type
   });

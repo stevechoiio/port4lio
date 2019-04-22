@@ -15,17 +15,22 @@ export default class Porfolio extends Component {
               {resumeData.portfolio &&
                 resumeData.portfolio.map((item, index) => {
                   return (
-                    <div className="columns portfolio-item">
-                      <div className="item-wrap">
-                        <a id={index}>
-                          <img src={`${item.imgurl}`} className="item-img" />
-                          <div className="overlay">
-                            <div className="portfolio-item-meta">
-                              <h5>{item.name}</h5>
-                              <p>{item.description}</p>
+                    <div>
+                      <div
+                        style={{ mixBlendMode: "multiply" }}
+                        className="columns portfolio-item"
+                      >
+                        <div className="item-wrap">
+                          <a id={index}>
+                            <img src={`${item.imgurl}`} className="item-img" />
+                            <div className="overlay">
+                              <div className="portfolio-item-meta">
+                                <h5>{item.name}</h5>
+                                <p>{item.description}</p>
+                              </div>
                             </div>
-                          </div>
-                        </a>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   );

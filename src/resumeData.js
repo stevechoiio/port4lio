@@ -86,19 +86,22 @@ let resumeData = {
   portfolio: [
     {
       name: "Cool IT!",
-      description: "mobileapp",
+      description:
+        "Mobile application designed for BC Sustainable Energy Association. I have implemented the backend of the app to allow users to login by authentication and log daily activites to track their habits.",
       imgurl: "images/portfolio/coolitlogo.jpg"
     },
     {
       name: "Loyal Flush",
-      description: "mobileapp",
+      description:
+        "It's the cleaniest washroom finder. This app has been built from scratch in a team of two developers. Beta currently available in App store! ",
       imgurl: "images/portfolio/loyalflush.jpg"
     },
 
     {
       name: "FitGO",
-      description: "mobileapp",
-      imgurl: "images/portfolio/dark-logo.svg"
+      description:
+        "Mobile application designed to let local personal trainers connect with their clients. I have built the data and the functions to let clients filter and view personal trainers on Google Map, and favourite their trainers!",
+      imgurl: "images/portfolio/fitgologo.jpg"
     }
   ],
   testimonials: [

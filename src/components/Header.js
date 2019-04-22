@@ -20,13 +20,13 @@ export default class Header extends Component {
               </li>
 
               <li>
-                <a className="smoothscroll" href="#resume">
-                  Resume
+                <a className="smoothscroll" href="#portfolio">
+                  Works
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#portfolio">
-                  Works
+                <a className="smoothscroll" href="#resume">
+                  Resume
                 </a>
               </li>
             </ul>
@@ -60,7 +60,7 @@ export default class Header extends Component {
           </div>
 
           <p className="scrolldown">
-            <a className="smoothscroll" href="#resume">
+            <a className="smoothscroll" href="#portfolio">
               <i className="icon-down-circle" />
             </a>
           </p>
