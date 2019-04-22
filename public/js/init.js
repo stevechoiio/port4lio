@@ -123,7 +123,7 @@ jQuery(document).ready(function($) {
   });
   $("#2").magnificPopup({
     items: {
-      src: "../images/portfolio/fitgorender.png"
+      src: "../images/portfolio/fitgorender.jpg"
     },
     type: "image" // this is default type
   });
