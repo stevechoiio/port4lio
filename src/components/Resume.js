@@ -4,6 +4,40 @@ export default class Resume extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="resume">
+        
+        <div className="row work">
+          <div className="three columns header-col">
+            <h1>
+              <span>Work</span>
+            </h1>
+          </div>
+
+          <div className="nine columns main-col">
+            {resumeData.work &&
+              resumeData.work.map(item => {
+                return (
+                  <div className="row item">
+                    <div className="twelve columns">
+                    
+                        <a href={item.url}>
+                          <h3>{item.CompanyName}</h3>
+                        </a>
+    
+
+                      <p className="info">
+                        {item.specialization}
+                        <span>&bull;</span>{" "}
+                        <em className="date">
+                          {item.MonthOfLeaving} {item.YearOfLeaving}
+                        </em>
+                      </p>
+                      <p>{item.Achievements}</p>
+                    </div>
+                  </div>
+                );
+              })}
+          </div>
+        </div>
         <div className="row education">
           <div className="three columns header-col">
             <h1>
@@ -35,44 +69,6 @@ export default class Resume extends Component {
               })}
           </div>
         </div>
-        <div className="row work">
-          <div className="three columns header-col">
-            <h1>
-              <span>Work</span>
-            </h1>
-          </div>
-
-          <div className="nine columns main-col">
-            {resumeData.work &&
-              resumeData.work.map(item => {
-                return (
-                  <div className="row item">
-                    <div className="twelve columns">
-                      {item.CompanyName == "TalentMarketPlace" ? (
-                        <a href="https://www.talentmarketplace.ca/">
-                          <h3>{item.CompanyName}</h3>
-                        </a>
-                      ) : (
-                        <a href="http://www.standrewkim.com/main/frame.php">
-                          <h3>{item.CompanyName}</h3>
-                        </a>
-                      )}
-
-                      <p className="info">
-                        {item.specialization}
-                        <span>&bull;</span>{" "}
-                        <em className="date">
-                          {item.MonthOfLeaving} {item.YearOfLeaving}
-                        </em>
-                      </p>
-                      <p>{item.Achievements}</p>
-                    </div>
-                  </div>
-                );
-              })}
-          </div>
-        </div>
-
         {/* <div className="row skill">
           <div className="three columns header-col">
             <h1>

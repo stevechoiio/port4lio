@@ -27,14 +27,6 @@ let resumeData = {
   website: "github.com/stevechoiio",
   education: [
     {
-      UniversityName: "Red Academy",
-      UniversityURL: "https://redacademy.com/vancouver/",
-      specialization: "Full-stack Application Development",
-      MonthOfPassing: "April",
-      YearOfPassing: "2019",
-      Achievements: "Professional Diploma"
-    },
-    {
       UniversityName: "University of British Columbia",
       UniversityURL: "https://www.ubc.ca/",
       specialization: "Major in Philosophy",
@@ -45,18 +37,28 @@ let resumeData = {
   ],
   work: [
     {
-      CompanyName: "TalentMarketPlace",
-      specialization: "Software Engineer Intern",
-      MonthOfLeaving: "",
-      YearOfLeaving: "2019",
-      Achievements: ""
-    },
+        CompanyName: "Kater",
+        specialization: "Backend Software Engineer",
+        MonthOfLeaving: "01",
+        YearOfLeaving: "2020",
+        Achievements: "",
+        url:"https://www.kater.com/"
+      },
+      {
+        CompanyName: "Playr.GG",
+        specialization: "Mobile Application Developer",
+        MonthOfLeaving: "",
+        YearOfLeaving: "2019",
+        Achievements: "",
+        url:"https://playr.gg/"
+      },
     {
       CompanyName: "St.Andrew's Community Centre",
       specialization: "Assistant Python Instructor",
       MonthOfLeaving: "",
       YearOfLeaving: "2018",
-      Achievements: ""
+      Achievements: "",
+      url:"http://standrewkim.com/main/frame.php"
     }
   ],
   skillsDescription: "",
