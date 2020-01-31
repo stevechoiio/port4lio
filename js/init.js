@@ -116,7 +116,7 @@ jQuery(document).ready(function($) {
   $("#1").magnificPopup({
     items: [
       {
-        src: "../images/portfolio/loyalflushrenderbadge.jpg"
+        src: "../images/portfolio/loyalflushrender.png"
       }
     ],
     type: "image" // this is default type
